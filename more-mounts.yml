@@ -1,0 +1,2 @@
+runcmd:
+  - sudo mount //windowsFileServer/sharename2 -t cifs -o username=theUserName,password=thePassWordHere /mnt2
