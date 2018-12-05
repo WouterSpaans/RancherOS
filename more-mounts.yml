@@ -1,2 +1,4 @@
-runcmd:
-  - sudo mount //windowsFileServer/sharename2 -t cifs -o username=theUserName,password=thePassWordHere /mnt2
+- - //192.168.1.50/Public
+  - /media/media
+  - cifs
+  - username=wouter,password=PASSWORD,iocharset=utf8,_netdev
